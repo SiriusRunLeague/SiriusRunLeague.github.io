@@ -3,17 +3,20 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
+title: Sirius Run League
+subtitle: '天津战狼跑团'
+description: '拼搏 爱国 团结 正义'
 keywords:
-author: John Doe
-language: en
-timezone: ''
+- 战狼体育
+- 跑步
+- 马拉松
+author: SiriusRunLeague
+language: zh-CN
+timezone: 'Asia/Shanghai'   
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://siriusrunleague.github.io 
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -29,6 +32,11 @@ category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
+
+deploy:
+  type: git
+  repo: git@github.com:SiriusRunLeague/SiriusRunLeague.github.io.git
+  branch: main
 
 # Writing
 new_post_name: :title.md # File name of new posts
